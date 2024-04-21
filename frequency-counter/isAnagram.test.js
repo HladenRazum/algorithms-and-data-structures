@@ -14,7 +14,7 @@ describe("isAnagram", () => {
   });
   test("Should return false if provided arguments are not strings", () => {});
   test("Should return true if the two words are anagrams", () => {
-    expect(isAnagram("resque", "secure")).toBeTruthy();
+    expect(isAnagram("rescue", "secure")).toBeTruthy();
     expect(isAnagram("dog", "god")).toBeTruthy();
     expect(isAnagram("race", "care")).toBeTruthy();
     expect(isAnagram("keen", "knee")).toBeTruthy();

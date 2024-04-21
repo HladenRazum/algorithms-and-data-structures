@@ -1,5 +1,5 @@
 function isAnagram(str1, str2) {
-  if (str1.lenght !== str2.length) {
+  if (str1.length !== str2.length) {
     return false;
   }
 
@@ -14,10 +14,10 @@ function isAnagram(str1, str2) {
       return false;
     }
 
-    counter[str2]--;
+    counter[letter]--;
   }
 
   return true;
 }
 
-isAnagram("earth", "hearth");
+module.exports = isAnagram;
