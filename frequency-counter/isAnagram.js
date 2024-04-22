@@ -3,6 +3,10 @@ function isAnagram(str1, str2) {
     return false;
   }
 
+  if (typeof str1 !== "string" || typeof str2 !== "string") {
+    return false;
+  }
+
   let counter = {};
 
   for (const letter of str1) {
