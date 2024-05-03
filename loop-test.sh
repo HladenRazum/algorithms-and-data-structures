@@ -1,0 +1,1 @@
+ for i in {1..100}; do npm run test -t $1 --silent || (echo "Failed after $i attempts" && break); done
