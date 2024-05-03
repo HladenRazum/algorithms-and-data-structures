@@ -1,0 +1,5 @@
+find a way to visualize each algorithm
+examples:
+- https://visualgo.net/en
+- https://algorithm-visualizer.org/backtracking/hamiltonean-cycles
+- https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
